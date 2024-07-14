@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile-page</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://kit.fontawesome.com/07ec1d597b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--  || NAV BAR -->
+    <nav>
+      <div class="nav__left">
+        <a href="index.html">
+        <img src="./images/logo.png" alt="logo" class="logo"/>
+      </a>
+        <ul>
+          <li><img src="./images/notification.png" alt="notification-logo" /></li>
+          <li><img src="./images/inbox.png" alt="inbox-log" /></li>
+          <li><img src="./images/video.png" alt="video-logo" /></li>
+        </ul>
+      </div>
+      <div class="nav__left">
+
+        <div  class="search-box">
+          <img src="images/search.png" alt="search-log">
+          <input type="text" name="search" placeholder="Search">
+        </div>
+
+        <div class="user__profile  online" onclick="settingmenutoggle()">
+          <img src="images/ELA_6319.JPG" alt="profile">
+        </div>
+
+      </div>
+
+      <!-- SETTING MENU -->
+
+      <div class="setting__menu">
+
+          <div id="dark__mode__btn" >
+            <span></span>
+          </div>
+
+<div class="inner__setting">
+  
+  <div class="user__profile__upload">
+    <img src="images/ELA_6319.JPG" alt="">
+    <div class="space">
+      <p>Abdi-Rays</p>
+      <a href="porfile.html">See Your Profile</a>
+    </div>
+  </div>
+  <hr>
+  <div class="user__profile__upload">
+    <img src="images/feedback.png" alt="">
+    <div>
+      <p>Give feedback</p>
+      <a href="#">help us improve the design</a>
+      </div>
+    </div>
+    </div>
+    <hr>
+
+    <div class="setting__links">
+      <img src="images/setting.png" class="setting__icon">
+      <a href="#"> Setting & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+    </div>
+    <div class="setting__links">
+      <img src="images/help.png" class="setting__icon">
+      <a href="#"> Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+    </div>
+
+    <div class="setting__links">
+      <img src="images/display.png" class="setting__icon">
+      <a href="#"> Display & Accessability <img src="images/arrow.png" alt="" width="10px"></a>
+    </div>
+    <div class="setting__links">
+      <img src="images/logout.png" class="setting__icon">
+      <a href="#"> logout<img src="images/arrow.png" alt="" width="10px"></a>
+    </div>
+
+
+      </div>
+    </nav>
+
+    <!-- || THE PROFILE PAGE -->
+    <div class="profile__container">
+        <img src="images/cover.png" class="cover__img">
+        <div class="profile__details">
+            <div class="left__details">
+                <div class="ld__row">
+        <img src="images/ELA_6319.JPG" class="pd__img" >
+                    <div>
+                        <h3>Abdi-Rays</h3>
+                        <p>1.3k friends - 120 matual </p>
+         <img src="images/member-1.png" alt="">
+         <img src="images/member-2.png" alt="">
+         <img src="images/member-3.png" alt="">
+         <img src="images/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="right__details">
+                <button type="button"><img src="images/add-friends.png" alt="">Friend</button>
+                <button type="button"><img src="images/message.png" alt="">Message</button>
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div class="profile__info">
+          <div class="info__col">
+            <div class="profile__intro">
+              <h3>Intro</h3>
+              <p class="intro__text">turn that pain into passion and make it happen. <img src="images/feeling.png" alt=""></p>
+              <hr>
+              <ul>
+          <li><img src="images/profile-study.png" alt="">Went to jigjiga, community school</li>
+          <li><img src="images/profile-study.png" alt="">Studies Jigjiga University,Ethiopia</li>
+          <li><img src="images/profile-job.png" alt="">Ceo at rays software development company.</li>
+          <li><img src="images/profile-home.png" alt="">Lives in jigjiga , somali region.</li>
+          <li><img src="images/profile-location.png" alt="">from abudwak, galgudud , somalia</li>
+               
+              </ul>
+            </div>
+
+            <div class="profile__intro">
+              <div class="title__box">
+                <h3>Photos</h3>
+                <a href="#">All Photos</a>
+              </div>
+              <div class="photo__box">
+                <div><img src="images/photo1.png" alt=""></div>
+                <div><img src="images/photo2.png" alt=""></div>
+                <div><img src="images/photo3.png" alt=""></div>
+                <div><img src="images/photo4.png" alt=""></div>
+                <div><img src="images/photo5.png" alt=""></div>
+                <div><img src="images/photo6.png" alt=""></div>
+              </div>
+            </div>
+            <div class="profile__intro">
+              <div class="title__box">
+                <h3>Friends</h3>
+                <a href="#">All Friedns</a>
+              </div>
+              <p>1.3k (120 matual) </p>
+              <div class="friends__box">
+               <div><img src="images/member-1.png" alt=""><p>sara bernet</p></div>
+               <div>
+                <img src="images/member-2.png" alt=""><p>chris xheria</p>
+              </div>
+               <div><img src="images/member-3.png" alt=""><p>hana elias</p></div>
+               <div><img src="images/member-4.png" alt=""><p>paul canor</p></div>
+               <div><img src="images/member-5.png" alt=""><p>justin jane</p></div>
+               <div><img src="images/member-6.png" alt=""><p>grace thomson</p></div>
+               <div><img src="images/member-7.png" alt=""><p>adam beyne</p></div>
+               <div><img src="images/member-8.png" alt=""><p>edna s. </p></div>
+               <div><img src="images/member-9.png" alt=""><p>john  Doe</p></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="post__col">
+
+            
+        <div class="upload__post__container">
+          <div class="user__profile__upload">
+            <img src="images/ELA_6319.JPG" alt="">
+            <div>
+              <p>Abdi-Rays</p>
+              <small>public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+          <div class="user__input__container">
+            <textarea placeholder=" what's in your mind rays..." ></textarea>
+
+            <div class="user__post__links">
+              <a href="#"><img src="images/live-video.png" alt="">Live Video </a>
+              <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+              <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/ELA_6319.JPG" alt="">
+              <div>
+                <p>Abdi-Rays</p>
+                <span>june 29 2024 , 10:30 Pm</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> " if you want to shine infront of everybody, you have to work infront of nobody ".
+          <span>#RaysQuotes.</span>
+        </p>
+        <img src="images/feed-image-1.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120k</div>
+           <div><img src="images/comments.png" alt="">33k</div>
+           <div><img src="images/share.png" alt="">12k</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/member-2.png" alt="">
+              <div>
+                <p>andrew weyne</p>
+                <span>may 22 2024 , 1:00 Am</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> "
+       ENJOYING TOGETHER WITH YOUR FRIENDS BRINGS MORE HAPPINESS ".
+        
+        </p>
+        <img src="images/feed-image-2.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120</div>
+           <div><img src="images/comments.png" alt="">78</div>
+           <div><img src="images/share.png" alt="">6</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/member-4.png" alt="">
+              <div>
+                <p>justin james</p>
+                <span>january 8 2024 , 5:20 Pm</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> "
+       AFTER LONG TIME OF WORK , TAKING LITTLE BREAK WITH CO-WORKERS.... ".
+        
+        </p>
+        <img src="images/feed-image-3.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120</div>
+           <div><img src="images/comments.png" alt="">78</div>
+           <div><img src="images/share.png" alt="">6</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/member-3.png" alt="">
+              <div>
+                <p>Grace</p>
+                <span> february 4 2024 , 10:30 Pm</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> "
+      FOCUS IS KEY TO EVERYTHING , BE FOCUSED. ".
+        
+        </p>
+        <img src="images/feed-image-4.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120</div>
+           <div><img src="images/comments.png" alt="">78</div>
+           <div><img src="images/share.png" alt="">6</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/ELA_6319.JPG" alt="">
+              <div>
+                <p>Abdi-Rays</p>
+                <span>june 29 2024 , 10:30 Pm</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> "
+       ENJOYING TOGETHER WITH YOUR FRIENDS BRINGS MORE HAPPINESS ".
+        
+        </p>
+        <img src="images/feed-image-5.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120</div>
+           <div><img src="images/comments.png" alt="">78</div>
+           <div><img src="images/share.png" alt="">6</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+
+          </div>
+        </div>
+
+     
+
+
+    </div>
+
+    <!-- || END OF  PROFILE PAGE -->
+
+   
+    <div class="footer">
+      <p>&copy; all-rights-reserved @facebook.com</p>
+    </div>
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

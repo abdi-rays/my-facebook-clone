@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook-clone</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://kit.fontawesome.com/07ec1d597b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--  || NAV BAR -->
+    <nav>
+      <div class="nav__left">
+        <a href="index.html">
+        <img src="./images/logo.png" alt="logo" class="logo"/>
+      </a>
+        <ul>
+          <li><img src="./images/notification.png" alt="notification-logo" /></li>
+          <li><img src="./images/inbox.png" alt="inbox-log" /></li>
+          <li><img src="./images/video.png" alt="video-logo" /></li>
+        </ul>
+      </div>
+      <div class="nav__left">
+
+        <div  class="search-box">
+          <img src="images/search.png" alt="search-log">
+          <input type="text" name="search" placeholder="Search">
+        </div>
+
+        <div class="user__profile  online" onclick="settingmenutoggle()">
+          <img src="images/ELA_6319.JPG" alt="profile">
+        </div>
+
+      </div>
+
+      <!-- SETTING MENU -->
+
+      <div class="setting__menu">
+
+          <div id="dark__mode__btn" >
+            <span></span>
+          </div>
+
+<div class="inner__setting">
+  
+  <div class="user__profile__upload">
+    <img src="images/ELA_6319.JPG" alt="">
+    <div class="space">
+      <p>Abdi-Rays</p>
+      <a href="./porfile.html">See Your Profile</a>
+    </div>
+  </div>
+  <hr>
+  <div class="user__profile__upload">
+    <img src="images/feedback.png" alt="">
+    <div>
+      <p>Give feedback</p>
+      <a href="#">help us improve the design</a>
+      </div>
+    </div>
+    </div>
+    <hr>
+
+    <div class="setting__links">
+      <img src="images/setting.png" class="setting__icon">
+      <a href="#"> Setting & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+    </div>
+    <div class="setting__links">
+      <img src="images/help.png" class="setting__icon">
+      <a href="#"> Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+    </div>
+
+    <div class="setting__links">
+      <img src="images/display.png" class="setting__icon">
+      <a href="#"> Display & Accessability <img src="images/arrow.png" alt="" width="10px"></a>
+    </div>
+    <div class="setting__links">
+      <img src="images/logout.png" class="setting__icon">
+      <a href="#"> logout<img src="images/arrow.png" alt="" width="10px"></a>
+    </div>
+
+
+      </div>
+    </nav>
+
+    <div class="container">
+         <!--    LEFT-SIDE-BAR    -->
+
+
+      <div class="left__sidebar">
+
+      <div class="main__links">
+
+       <a href="#"><img src="images/news.png" alt="">Latest News </a>
+       <a href="#"><img src="images/friends.png" alt=""> Friends</a>
+       <a href="#"><img src="images/group.png" alt=""> Groups </a>
+       <a href="#"><img src="images/marketplace.png" alt=""> Marketplace </a>
+       <a href="#"><img src="images/watch.png" alt=""> Watch </a>
+       <a href="#">See More</a>
+
+      </div>
+
+      <div class="shortcut__links">
+        <p>Your Shortcuts</p>
+         <a href="#"><img src="images/shortcut-1.png" alt="">Web Developer</a>
+         <a href="#"><img src="images/shortcut-2.png" alt=""> Web Design Course </a>
+         <a href="#"><img src="images/shortcut-3.png" alt=""> Full Stack development </a>
+         <a href="#"><img src="images/shortcut-4.png" alt="">Web Experts</a>
+         
+
+      </div>
+      </div>
+
+
+        <!--    MAIN-CONTENT   -->
+
+      <div class="main__content">
+
+        <div class="story__gallery">
+          <div class="story story1">
+            <img src="images/upload.png" >
+            <p> post story </p>
+          </div>
+          <div class="story story2">
+            <img src="images/member-1.png " >
+            <p> alizabeth </p>
+          </div>
+          <div class="story story3">
+            <img src="images/member-2.png " >
+            <p> andrew weyne </p>
+          </div>
+          <div class="story story4">
+            <img src="images/member-3.png " >
+            <p> dave janson </p>
+          </div>
+          <div class="story story5">
+            <img src="images/member-4.png " >
+            <p> justin james </p>
+          </div>
+        </div>
+
+        <div class="upload__post__container">
+          <div class="user__profile__upload">
+            <img src="images/ELA_6319.JPG" alt="">
+            <div>
+              <p>Abdi-Rays</p>
+              <small>public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+          <div class="user__input__container">
+            <textarea placeholder=" what's in your mind rays..." ></textarea>
+
+            <div class="user__post__links">
+              <a href="#"><img src="images/live-video.png" alt="">Live Video </a>
+              <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+              <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+            </div>
+          </div>
+        </div>
+
+         <!--  POST-CONTAINER -->
+
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/ELA_6319.JPG" alt="">
+              <div>
+                <p>Abdi-Rays</p>
+                <span>june 29 2024 , 10:30 Pm</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> " if you want to shine infront of everybody, you have to work infront of nobody ".
+          <span>#RaysQuotes.</span>
+        </p>
+        <img src="images/feed-image-1.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120k</div>
+           <div><img src="images/comments.png" alt="">33k</div>
+           <div><img src="images/share.png" alt="">12k</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/member-2.png" alt="">
+              <div>
+                <p>andrew weyne</p>
+                <span>may 22 2024 , 1:00 Am</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> "
+       ENJOYING TOGETHER WITH YOUR FRIENDS BRINGS MORE HAPPINESS ".
+        
+        </p>
+        <img src="images/feed-image-2.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120</div>
+           <div><img src="images/comments.png" alt="">78</div>
+           <div><img src="images/share.png" alt="">6</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/member-4.png" alt="">
+              <div>
+                <p>justin james</p>
+                <span>january 8 2024 , 5:20 Pm</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> "
+       AFTER LONG TIME OF WORK , TAKING LITTLE BREAK WITH CO-WORKERS.... ".
+        
+        </p>
+        <img src="images/feed-image-3.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120</div>
+           <div><img src="images/comments.png" alt="">78</div>
+           <div><img src="images/share.png" alt="">6</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/member-3.png" alt="">
+              <div>
+                <p>Grace</p>
+                <span> february 4 2024 , 10:30 Pm</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> "
+      FOCUS IS KEY TO EVERYTHING , BE FOCUSED. ".
+        
+        </p>
+        <img src="images/feed-image-4.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120</div>
+           <div><img src="images/comments.png" alt="">78</div>
+           <div><img src="images/share.png" alt="">6</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="Post__container">
+           
+          <div class="post__row">
+
+            <div class="user__profile__upload">
+              <img src="images/ELA_6319.JPG" alt="">
+              <div>
+                <p>Abdi-Rays</p>
+                <span>june 29 2024 , 10:30 Pm</span>
+               
+              </div>
+          </div>
+
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+          </div>
+          
+
+        <p class="post__text"> "
+       ENJOYING TOGETHER WITH YOUR FRIENDS BRINGS MORE HAPPINESS ".
+        
+        </p>
+        <img src="images/feed-image-5.png" class="post__img">
+
+        <div class="post__row">
+          <div class="post__reaction-icons">
+           <div><img src="images/like-blue.png" alt=""> 120</div>
+           <div><img src="images/comments.png" alt="">78</div>
+           <div><img src="images/share.png" alt="">6</div>
+          </div>
+          <div class="post__profile">
+            <img src="images/ELA_6319.JPG" alt=""> <i class="fas fa-caret-down"></i>
+          </div>
+        </div>
+
+        </div>
+         
+        <button type="button" class="load__more__btn">Load More</button>
+
+      </div>
+
+        <!--    RIGHT-SIDE-BAR    -->
+      <div class="right__sidebar">
+
+        <div class="sidebar__title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left__event">
+            <h3>18</h3>
+            <span>march</span>
+          </div>
+          <div class="right__event">
+            <h4>Social Media</h4>
+            <p><i class="fa-sharp fa-solid fa-location-dot"></i> Laanta hawada , jigjiga</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left__event">
+            <h3>17</h3>
+            <span>may</span>
+          </div>
+          <div class="right__event">
+            <h4>mobile marketing </h4>
+            <p><i class="fa-sharp fa-solid fa-location-dot"></i> Laanta hawada , jigjiga</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar__title">
+          <h4>Advertisement </h4>
+          <a href="#">Close</a>
+        </div>
+        <img src="images/advertisement.png" class="sidebar__ads">
+
+        <div class="sidebar__title">
+          <h4> Conversation </h4>
+          <a href="#"> Hide Chat </a>
+        </div>
+
+        <div class="online__list">
+          <div class="online">
+            <img src="images/member-1.png" >
+          </div>
+          <p> alison mina </p>
+        </div>
+          
+        <div class="online__list">
+          <div class="online">
+            <img src="images/member-2.png" >
+          </div>
+          <p> jackson rays </p>
+        </div>  
+
+        <div class="online__list">
+          <div class="online">
+            <img src="images/member-3.png" >
+          </div>
+          <p> jina doe </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>&copy; all-rights-reserved @facebook.com</p>
+    </div>
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
